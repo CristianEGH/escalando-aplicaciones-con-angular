@@ -15,7 +15,7 @@ describe('workspace-project Login', () => {
     page.navigateToLogin();
     page.setEmail();
     page.setPassword();
-    page.selectGroupOptionByValue('A');
+    page.selectGroupOptionByLastValue();
 
     page.logIn();
 
